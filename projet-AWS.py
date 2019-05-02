@@ -4,7 +4,6 @@ from mysql.connector import Error
 
 # Penser à creer des classes 
 
-
 #connection a la db oracle
 ##########
 print("Connexion a la db oracle")
@@ -52,3 +51,29 @@ sql = "INSERT INTO contact (id, prenom, nom) VALUES (%s, %s, %s)"
 for i in range(100):
     curMysql.execute(sql, dataOracle[i])
 dbmysql.commit()
+
+
+class  AWS:
+    """docstring:
+    1.creer une classe qui gere la connexion aà la base Oracle, acces aux données et autres
+    2.creer une classe qui gere la connexion a la base mysql, access aux "" ""
+    3.creer eventuellement une autre classe pour fusionner le traitement  global
+    """
+    def __init__(self, oracle, mysql):
+        self.oracle = oracle
+        self.mysql = mysql
+
+    def oracleConnection(self, nom, mdp,ip, sid ):
+        self.nom= nom
+        self.mdp= mdp
+        self.ip= ip
+        self.sip =sid
+        
+    def mysqlConnection(self, host, user,password, database ):
+        self.host= host
+        self.user= user
+        self.password= password
+        self.database =database
+
+#### test de connexion aux bases de donnnées oracle et mysql
+
