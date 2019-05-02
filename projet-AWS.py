@@ -1,6 +1,10 @@
 import cx_Oracle as cx
 import mysql.connector as mysql
 from mysql.connector import Error
+
+# Penser à creer des classes 
+
+
 #connection a la db oracle
 ##########
 print("Connexion a la db oracle")
