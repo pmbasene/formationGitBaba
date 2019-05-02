@@ -27,4 +27,4 @@ Permet de compare l'ancienne version du fichier à la nouvelle version modifié
 
 c- **git log**
 
-Nous liste l'historique de toutes les modifications des fichiers depuis la date de creation (ou de premier commit)
+Nous liste l'historique de toutes les modifications des fichiers depuis la date de creation (ou de premier commit). Bon
