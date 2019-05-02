@@ -27,4 +27,10 @@ Permet de compare l'ancienne version du fichier à la nouvelle version modifié
 
 c- **git log**
 
-Nous liste l'historique de toutes les modifications des fichiers depuis la date de creation (ou de premier commit). Bon
+Nous liste l'historique de toutes les modifications des fichiers depuis la date de creation (ou de premier commit).  
+
+## Branch and Merge
+
+Pour travailler sur une version donnée d'un fichier, on peut/doit creer une branche. L'idee de pouvoir evoluer sur une partie de ce fichier de son cote sans affecte ou corrompre le reste du document. Ce qui permet aussi de pouvoir revenir aux verions anterieures facilement.
+
+
